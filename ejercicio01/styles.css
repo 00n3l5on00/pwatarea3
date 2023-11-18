@@ -1,0 +1,26 @@
+.menu {
+    display: flex;
+  }
+  
+  .menu-item {
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .options {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .options li {
+    padding: 8px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .options li:hover {
+    background-color: #ddd;
+  }
+  
